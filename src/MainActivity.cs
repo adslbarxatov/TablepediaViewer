@@ -9,7 +9,7 @@ namespace RD_AAOW
 	/// Класс описывает загрузчик приложения
 	/// </summary>
 	[Activity (Label = "Tablepedia viewer",
-		Icon = "@drawable/launcher_foreground",
+		Icon = "@drawable/icon",
 		Theme = "@style/SplashTheme",
 		MainLauncher = true,
 		ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]

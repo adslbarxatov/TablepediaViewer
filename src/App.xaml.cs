@@ -184,7 +184,7 @@ namespace RD_AAOW
 			else
 				{
 				allowServiceTip = AndroidSupport.ApplyLabelSettings (solutionPage, "LoadSaveTip",
-					" ", RDLabelTypes.Tip);
+					" ", RDLabelTypes.TipCenter);
 				allowServiceTip.IsVisible = false;
 
 				allowServiceButton = AndroidSupport.ApplyButtonSettings (solutionPage, "LoadSaveButton",
@@ -220,7 +220,7 @@ namespace RD_AAOW
 
 			AndroidSupport.ApplyLabelSettings (aboutPage, "RestartTipLabel",
 				RDLocale.GetDefaultText (RDLDefaultTexts.Message_RestartRequired),
-				RDLabelTypes.Tip);
+				RDLabelTypes.TipCenter);
 
 			AndroidSupport.ApplyLabelSettings (aboutPage, "FontSizeLabel",
 				RDLocale.GetDefaultText (RDLDefaultTexts.Control_InterfaceFontSize),
